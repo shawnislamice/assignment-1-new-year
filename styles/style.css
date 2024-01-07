@@ -1,0 +1,326 @@
+/* Shared Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* New year heading styles */
+.heading {
+    background: #FFF;
+    margin-bottom: 120px;
+}
+
+.header-content {
+    max-width: 1320px;
+    max-height: 600px;
+    width: 83%;
+    margin: 50px 140px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/images/banner-image.png");
+    background-repeat: no-repeat;
+    background-position: bottom center cover;
+    border-radius: 16px;
+    justify-content: center;
+
+}
+
+.header-greeting {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 27px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 177px;
+}
+
+.header-info {
+    color: #FFF;
+    width: 632px;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding-top: 0;
+    padding-bottom: 177px;
+    margin: 0 344px;
+
+}
+
+/* Discount related styles */
+.discount-offer {
+    margin-bottom: 400px;
+}
+
+.discount-content {
+    max-width: 805px;
+    max-height: 500px;
+    margin: 0 399px;
+    background: #FFF;
+}
+
+.discount-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    padding-bottom: 48px;
+}
+
+.discount-info {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 10px;
+
+}
+
+.discount-categories {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 48px;
+}
+
+.discount-content img {
+    max-width: 802.9px;
+    max-height: 500px;
+    margin-bottom: 1500px;
+
+}
+
+/* Welcome related styles */
+
+.welcome-section {
+    max-width: 1320px;
+    max-height: 350px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: bottom center cover;
+    margin: 50px 120px;
+    border-radius: 16px;
+    padding: 126px 552px 126px 126px;
+    margin: 50px 140px;
+
+
+}
+
+
+.welcome-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+
+}
+
+.welcome-title {
+
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+
+    padding-top: 0px;
+}
+
+.welcome-info {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
+
+.welcome-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    /* background: #070211; */
+    margin-bottom: 120px;
+    background: none;
+    cursor: pointer;
+
+}
+
+.welcome-btn:hover {
+    background-color: #F00;
+    transition: all 0.5s;
+}
+
+.welcome-image img {
+    padding-bottom: 100px;
+}
+
+/* About info styles */
+.about-info {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    max-width: 1320px;
+    max-height: 482px;
+    margin: 70px 140px;
+    border-radius: 16px;
+    padding: 120px 385px;
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-info .about-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+
+}
+
+.about-info h3 {
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-info h3 span {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.about-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    padding: 16px 32px;
+    cursor: pointer;
+    margin-top: 64px;
+
+}
+
+.about-btn:hover {
+    background-color: rgb(207, 198, 198);
+    transition: 0.5s all;
+    color: #070211;
+}
+
+/* Coming soon styles */
+.coming-soon {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    max-width: 1320px;
+    max-height: 482px;
+    margin: 70px 140px;
+    border-radius: 16px;
+    padding-top: 20px;
+}
+
+.coming-soon-container {
+    display: flex;
+    align-items: center;
+
+
+    gap: 80px;
+}
+
+.best-offer {
+    padding-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
+
+.best-offer-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.best-offer-greetings {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.best-offer-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 390px;
+
+}
+.coming-soon-img{
+    border: 15px solid #F00;
+    border-radius: 400%;
+}
+.coming-soon-img img {
+    max-width: 364.844px;
+    max-width: 364.844px;
+    padding: 30px ;
+    
+    
+}
+
+.coming-soon-2024-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    
+
+}
+
+.coming-soon-2024-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 10px;
+    padding-right: 5px;
+    max-width: 200px;
+
+}
+
+.coming-soon-2024-img {
+    max-width: 140px;
+    max-width: 140px;
+    padding-top: 40px;
+}
