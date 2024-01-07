@@ -265,14 +265,14 @@
 .best-offer-title {
     color: #F00;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
 }
 
 .best-offer-greetings {
     color: #070211;
     font-family: Merriweather;
-    font-size: 48px;
+    font-size: 35px;
     font-weight: 900;
     text-transform: capitalize;
 }
@@ -280,7 +280,7 @@
 .best-offer-description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 32px;
     width: 390px;
@@ -301,7 +301,7 @@
 .coming-soon-2024-title {
     color: #F00;
     font-family: Inter;
-    font-size: 48px;
+    font-size: 35px;
     font-weight: 700;
     
 
@@ -310,7 +310,7 @@
 .coming-soon-2024-description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 32px;
     padding-top: 10px;
