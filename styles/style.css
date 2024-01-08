@@ -333,8 +333,9 @@
     max-height: 700px;
     margin: 120px 140px;
     background: #FFF;
-    padding-bottom: 0;
-    padding-bottom: 0;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+
 
 }
 
@@ -402,49 +403,43 @@
 }
 
 /* Holiday Photos section style */
-.holiday-photo-section {
-    max-height: 700px;
-    background-image: url("../images/Rectangle-2.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
+.holiday-photo-section{
+    margin-top: none;
+}
+.holiday-photo-section-container {
+    display: flex;
+    align-items: end;
+    margin-top: 3rem;
+    flex-direction: column;
     margin: 0 140px;
-    border-radius: 16px;
-    margin-top: 0px;
 }
-
-.holiday-container .holiday-img-1 .gift-img {
-    max-width: 500px;
-    max-height: 500px;
-    padding: 260px 50px 70px 64px;
-}
-
-
-.holiday-img-1 .gift-img {
-    max-width: 206.841px;
-    max-height: 206.841px;
-
-}
-
-.holiday-img-2 .girl-profile-picture {
+.holiday-photo-section-main-image{
+    width: 400px;
+    height: 400px;
+    background-image: url("../images/Rectangle-1.png");
+    background-position: center;
+    background-size: cover;
     position: relative;
-    align-self: self-end;
-    border-radius: 15px;
-    top: 100%;
-    left: 45%;
-    padding-bottom: 235px;
-
-
 }
-
-.holiday-img-2 .offer-logo {
-    max-width: 206.841px;
-    max-height: 206.841px;
+.holiday-photo-section-main-image img{
     position: absolute;
-    right: 30%;
-
-
-
+    left: -40%;
+    top: 10%;
 }
+.holiday-photo-section-main-second-image{
+    width: 1200px;
+    height: 150px;
+    background-image: url("../images/Rectangle-2.png"); 
+    position: relative;
+    border-radius: 0 0 15px 15px;
+}
+.holiday-photo-section-main-second-image img{
+    position: absolute;
+    width: 550px;
+    top: -230%;
+    left: 5%;
+}
+
 
 /* Portfolio styles */
 .protfolio-section {
@@ -489,19 +484,23 @@
     flex-wrap: wrap;
     gap: 24px;
     justify-content: space-evenly;
+    margin-left: 0px;
 
 }
 
 .portfolio-image-container img {
-    max-width: 424px;
+    max-width: 350px;
     max-height: 450px;
-    width: 30%;
+    width: 33%;
     cursor: pointer;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
 }
 
 .portfolio-content-image:hover {
-    width: 32%;
-    transition: 0.5s ease-in-out;
+    /* transition: 0.5s ease-in-out; */
+    filter: grayscale(0%);
+    transform: scale(1.03);
 }
 
 /* Subscribe Styles */
@@ -587,6 +586,7 @@
     padding: 22px 56px;
     border: none;
     cursor: pointer;
+    margin-left: 0;
 }
 
 .subscribe-content-form-btn:hover {
@@ -597,7 +597,7 @@
 }
 
 .subscribe-content-form form {
-    display: inline;
+    display: flex;
     margin-left: 350px;
 }
 
@@ -609,7 +609,7 @@
 .footer {
     background: #070211;
     max-width: 1600px;
-    max-height: 700px;
+    max-height: 600px;
     margin-top: 120px;
 }
 
@@ -631,7 +631,8 @@
     font-weight: 500;
     line-height: 34px;
 }
-.footer-image-container a img{
+
+.footer-image-container a img {
     width: 64px;
     height: 64px;
 }
@@ -640,7 +641,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 120px 250px 90px 120px;
+    padding: 120px ;
+    padding-bottom: 20px;
 }
 
 .footer-image-container {
@@ -648,7 +650,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding-bottom: 90px;
+    padding: 50px 0;
 }
 
 .copyright-container .copyright-description {
@@ -661,20 +663,32 @@
 .copyright-container {
     display: flex;
     justify-content: space-between;
-    padding: 90px 140px;
-    padding-bottom: 120px;
+    padding:0 120px ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
 }
-.footer-btn{
+
+.footer-btn {
     border: none;
     background: #070211;
     cursor: pointer;
     padding: 20px;
     border-radius: 14px;
+    margin-top: 0px;
 
 }
-.footer-btn:hover{
+
+.footer-btn:hover {
     background-color: #F00;
     transition: 0.5s all;
     color: #070211;
+
+}
+hr{
+    max-width: 100%;
+    margin: 50px 0;
+    text-decoration: dashed;
+    margin: 0 90px;
 
 }
