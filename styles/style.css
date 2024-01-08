@@ -444,9 +444,9 @@
 /* Portfolio styles */
 .protfolio-section {
     max-width: 1320px;
-    margin: 120px 188px;
+    margin: 120px 140px;
     background: #FFF;
-
+    
 }
 
 .portfolio-content .portfolio-content-title {
@@ -455,6 +455,10 @@
     font-size: 20px;
     font-weight: 500;
     padding-bottom: 14px;
+    
+}
+.portfolio-content{
+    margin-left: 40px;
 }
 
 .portfolio-content .port-content-greeting {
