@@ -240,7 +240,7 @@
 
 /* Coming soon styles */
 .coming-soon {
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background: #FFF;
     max-width: 1320px;
     max-height: 482px;
     margin: 70px 140px;
