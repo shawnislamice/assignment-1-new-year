@@ -19,7 +19,7 @@
     max-height: 600px;
     width: 83%;
     margin: 50px 140px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/images/banner-image.png");
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/banner-image.png");
     background-repeat: no-repeat;
     background-position: bottom center cover;
     border-radius: 16px;
@@ -103,7 +103,7 @@
 .welcome-section {
     max-width: 1320px;
     max-height: 350px;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/images/Vectorrr.png");
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vectorrr.png");
     background-repeat: no-repeat;
     background-position: bottom center cover;
     margin: 50px 120px;
