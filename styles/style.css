@@ -26,7 +26,7 @@ main {
 
 .header-section {
     border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/BannerImage.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,7 +115,7 @@ main {
 /* Welcome styles */
 .welcome-section {
     background: #FFF;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vector.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -378,7 +378,7 @@ main {
 .discount-first-img {
     width: 400px;
     height: 400px;
-    background-image: url("../images/Rectangle\ 1.png");
+    background-image: url("../images/Rectangle1.png");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -402,7 +402,7 @@ main {
 .discount-second-img {
     width: 1320px;
     height: 150px;
-    background-image: url("../images/Rectangle\ 2.png");
+    background-image: url("../images/Rectangle2.png");
     position: relative;
     border-radius: 0 0 16px 16px;
 }
