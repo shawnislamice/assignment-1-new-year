@@ -51,9 +51,7 @@ main {
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .header-section-container h1 {
@@ -61,10 +59,8 @@ main {
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
     line-height: 80px;
-    /* 131.944% */
     padding: 0 300px;
 
 }
@@ -80,9 +76,7 @@ main {
     text-align: center;
     font-family: Inter;
     font-size: 72px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     padding-bottom: 20px;
 }
 
@@ -91,9 +85,7 @@ main {
     text-align: center;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     padding-bottom: 10px;
 }
 
@@ -102,9 +94,7 @@ main {
     text-align: center;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     padding-bottom: 30px;
 }
 
@@ -138,7 +128,6 @@ main {
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
-    font-style: normal;
     font-weight: 900;
     line-height: 88px;
     letter-spacing: 7.04px;
@@ -152,7 +141,6 @@ main {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     width: 697px;
@@ -167,9 +155,7 @@ main {
     text-align: center;
     font-family: Inter;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
     border: none;
     cursor: pointer;
@@ -214,7 +200,6 @@ main {
     color: #070211;
     font-family: Inter;
     font-size: 28px;
-    font-style: normal;
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
@@ -225,7 +210,6 @@ main {
     text-align: center;
     font-family: Inter;
     font-size: 32px;
-    font-style: normal;
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
@@ -238,9 +222,7 @@ main {
     text-align: center;
     font-family: Inter;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
     border-radius: 8px;
     background: #F00;
@@ -289,18 +271,14 @@ main {
     color: #F00;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
 }
 
 .coming-soon h1 {
     color: #070211;
     font-family: Merriweather;
     font-size: 40px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
 }
 
@@ -308,7 +286,6 @@ main {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
     width: 393px;
@@ -321,9 +298,7 @@ main {
     color: #F00;
     font-family: Inter;
     font-size: 40px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 
 }
 
@@ -331,7 +306,6 @@ main {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     width: 276px;
@@ -366,18 +340,14 @@ main {
     color: #070211;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
 }
 
 .holiday-sale-content h1 {
     color: #F00;
     font-family: Merriweather;
     font-size: 60px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
 }
 
 .holiday-sale-content p {
@@ -385,20 +355,16 @@ main {
     font-family: Inter;
     text-align: center;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 25px;
     width: 850px;
-    /* padding-bottom: 64px; */
 }
 
 .holiday-sale-content .holiday-sale-offer span {
     color: #070211;
     font-family: Merriweather;
     font-size: 60px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
 }
 
 .holiday-sale-content {
@@ -458,9 +424,7 @@ main {
     color: #F00;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     padding-bottom: 10px;
 }
 
@@ -468,9 +432,7 @@ main {
     color: #070211;
     font-family: Merriweather;
     font-size: 40px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
     padding-bottom: 10px;
 }
@@ -479,7 +441,6 @@ main {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 28px;
     width: 800px;
@@ -491,13 +452,11 @@ main {
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-
     gap: 20px;
 }
 
 .portfolio-section .portfolio-gallery-container img {
     width: 424px;
-
     filter: grayscale(100%);
     transition: transform 0.5s;
     cursor: pointer;
@@ -527,9 +486,7 @@ main {
     color: #070211;
     font-family: Merriweather;
     font-size: 40px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
 
 }
@@ -538,7 +495,6 @@ main {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
     width: 896px;
@@ -565,9 +521,7 @@ main {
     color: rgba(7, 2, 17, 0.30);
     font-family: Inter;
     font-size: 15px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     padding: 25px;
 
 
@@ -578,9 +532,7 @@ main {
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-transform: capitalize;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
@@ -606,10 +558,11 @@ main {
 
 /* footer styles */
 footer {
+    margin-top: 64px;
     background-color: #150909;
-    margin-top: 4rem;
-    padding: 4rem 0;
     color: #fff;
+    padding: 64px 0;
+    
 }
 
 .footer-div-container {
@@ -618,14 +571,15 @@ footer {
 }
 
 .footer-content {
+    margin-bottom: 16px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1rem;
+    
 }
 
 .footer-icon {
     display: flex;
-    gap: 0.5rem;
+    gap: 8px;
     align-items: center;
     margin-bottom: 10px;
 }
@@ -637,15 +591,15 @@ footer {
 
 hr {
     background-color: rgba(255, 255, 255, 0.25);
-    height: 0.5px;
+    height: 0.7px;
     border: none;
 }
 
 .footer-images {
     display: flex;
+    gap: 16px;
     justify-content: center;
-    gap: 1rem;
-    margin: 1.8rem 0;
+    margin: 29px 0;
 }
 
 .footer-images img {
@@ -653,7 +607,7 @@ hr {
 }
 
 .footer-copyright {
-    padding-top: 2rem;
+    padding-top: 32px;
     display: flex;
     justify-content: space-between;
 }
@@ -662,9 +616,7 @@ button {
     color: #FFF;
     font-family: Inter;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     border: none;
     outline: none;
     background: none;
